@@ -1,0 +1,45 @@
+.bacgroun-img__wrapper {
+  margin: 23px auto 0;
+  min-width: 321px;
+  padding: 0 25px;
+
+  @media (min-width: $bp-tablet) {
+    min-width: 768px;
+    padding: 0 80px;
+    margin: 43px auto 0;
+  }
+
+  @media (min-width: $bp-desc) {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 51px auto 0;
+  }
+}
+
+.bacgroun-img__wrapper-images {
+  position: relative;
+  top: 60px;
+  left: 0;
+  background-image: url("../images/mobile_img/bg-mob-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+
+  @media (min-width: $bp-tablet) {
+    top: 0;
+    background-image: url("../images/tablet_img/img_tab 1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 361px;
+  }
+
+  @media (min-width: $bp-desc) {
+    background-image: url("../images/desctop_img/img_desc 1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+  }
+}
